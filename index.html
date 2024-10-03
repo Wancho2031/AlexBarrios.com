@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alex Barrios - Transformando el Futuro</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Estilos globales */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #333;
+        }
+
+        header {
+            background-color: #ffc107; /* Amarillo */
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        header h1 {
+            font-size: 3em;
+            animation: slideDown 1s ease-out;
+            color: #333; /* Texto gris */
+        }
+
+        header p {
+            font-size: 1.5em;
+            margin-top: 10px;
+            color: #333;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.2em;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #ffcc00;
+        }
+
+        /* Biografía */
+        #biografia {
+            background-color: #f0f0f0; /* Gris claro */
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #biografia img {
+            width: 250px;
+            border-radius: 50%;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        #biografia h2 {
+            font-size: 2.5em;
+            color: #ffc107; /* Amarillo */
+        }
+
+        #biografia p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        /* Propuestas */
+        #propuestas {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #propuestas h2 {
+            font-size: 2.5em;
+            color: #ffc107; /* Amarillo */
+        }
+
+        #propuestas ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        #propuestas ul li {
+            display: inline-block;
+            margin: 15px;
+            padding: 20px;
+            background-color: #f0f0f0;
+            border-radius: 10px;
+            width: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
+
+        #propuestas ul li:hover {
+            transform: scale(1.1);
+        }
+
+        /* Noticias */
+        #noticias {
+            background-color: #ffffff;
+            padding: 50px 20px;
+            text-align: center;
+        }
+
+        #noticias h2 {
+            font-size: 2.5em;
+            color: #ffc107;
+        }
+
+        #noticias p {
+            font-size: 1.2em;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        /* Animaciones */
+        @keyframes slideDown {
+            from {
+                transform: translateY(-50px);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Alex Barrios</h1>
+        <p>Unidos por un futuro mejor</p>
+        <nav>
+            <ul>
+                <li><a href="#biografia">Biografía</a></li>
+                <li><a href="#propuestas">Propuestas</a></li>
+                <li><a href="#noticias">Noticias</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="biografia">
+        <h2>Biografía</h2>
+        <img src="imagen-politico.jpg" alt="Alex Barrios">
+        <p>Alex Barrios Almanza, Barranquillero y arquitecto que ha dedicado tiempo y esfuerzos a mejorar la calidad de vida de su comunidad. Con una sólida formación en Arquitectura y una practicidad como edil, está trabajando constantemente para crear oportunidades de desarrollo social y económico.</p>
+    </section>
+
+    <section id="propuestas">
+        <h2>Propuestas</h2>
+        <ul>
+            <li>Estructura de la ciudad</li>
+            <li>Desarrollo social cultural</li>
+            <li>Seguridad completa</li>
+        </ul>
+    </section>
+
+    <section id="noticias">
+        <h2>Noticias</h2>
+        <p>Últimas actualizaciones sobre los proyectos y actividades de Alex Barrios.</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Alex Barrios - Todos los derechos reservados</p>
+    </footer>
+
+</body>
+</html>
